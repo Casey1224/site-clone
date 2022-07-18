@@ -82,3 +82,18 @@ body.debug [class*="col-"] {
     }
 
 }
+
+@media (max-width: 768px) {
+    .main-card {
+        order: 1;
+    }
+
+    .left-card {
+        order: 2;
+    }
+
+    .right-card {
+        order: 3;
+
+    }
+}
